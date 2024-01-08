@@ -247,7 +247,7 @@ task updateCpxBed{
 
     RuntimeAttr default_attr = object {
                                       mem_gb: base_mem_gb,
-                                      disk_gb: ceil(10 + input_size * 1.5),
+                                      disk_gb: ceil(10),
                                       cpu: 1,
                                       preemptible: 2,
                                       max_retries: 1,
